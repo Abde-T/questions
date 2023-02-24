@@ -1,0 +1,17 @@
+#body{
+    display: flex;
+    align-items: center;
+}
+#slider{
+    height: 800px;
+    width: 500px;
+    border:  10px solid blue;
+}
+button{
+    height: 20px;
+    margin: 0 auto;
+}
+figure{
+    background-size: contain;
+    background-repeat: no-repeat;
+}
