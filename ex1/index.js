@@ -58,3 +58,20 @@ function changeContent() {
   var x = document.getElementById("myTable").rows[parseInt(rn, 10)].cells;
   x[parseInt(cn, 10)].innerHTML = content;
 }
+
+
+//EX7
+function createTable(){
+  rn = window.prompt("Input the Row number", "0");
+  cn = window.prompt("Input the Column number", "0");
+  for(var r=0;r<parseInt(rn,10);r++)
+  {
+   var x=document.getElementById('myable').insertRow(r);
+   for(var c=0;c<parseInt(cn,10);c++)  
+    {
+     var y=  x.insertCell(c);
+     y.innerHTML="Row-"+r+" Column-"+c; 
+    }
+   }
+
+}
