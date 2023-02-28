@@ -1,4 +1,4 @@
-const prices = [7,6,4,3,1];
+/*const prices = [7,6,4,3,1];
 //7,6,4,3,1    7,1,5,3,6,4
 const pris = []
 let max = 0
@@ -21,7 +21,7 @@ console.log(max)
  };
 
  func()
-/**  console.log("-----------------------------------")
+ console.log("-----------------------------------")
  function fun() {
  if(prices == null || prices.length <= 1) return 0;
  let minBuy = prices[0];
@@ -33,3 +33,19 @@ console.log(max)
  console.log(profit);
 }
 fun()*/
+console.log("--------------------------------")
+
+const nums = [1,2,3,1]
+function fun() {
+    const a = nums.sort((a,b) => b-a);
+    for(let i =0; i<nums.length; i++){
+        if(nums[i] == nums[i+1]){
+            console.log( true)
+        } 
+        
+    }
+    console.log( false)
+    console.log( a)
+};
+
+fun()
